@@ -9,7 +9,7 @@ To install and configure Virtual Box, you can do that from Terminal using comman
 1.	On your device, open Terminal (press the Cmd + Space, search terminal), type the command and hit Enter: 
 (If you have not installed homebrew, install following this instruction: https://github.com/KimNguyenMai/Documentations/blob/master/Install%20Homebrew%20Guide.md) 
 
->>> brew cask install virtualbox 
+``` brew cask install virtualbox ```
 
 If prompted to enter password, enter the password to log into your device then hit Enter (Note: The password will not show on the screen as you type) 
 
@@ -21,7 +21,7 @@ If prompted to enter password, enter the password to log into your device then h
 
 3. To open virtual box, type: 
 
->>> virtualbox 
+```virtualbox ```
 
  ![](images/openVMonMac.png)
 

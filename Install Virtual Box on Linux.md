@@ -10,7 +10,7 @@ To install and configure Virtual Box, you can do that from Terminal using comman
 
 2. In your terminal, type the following command and hit Enter: 
 
->>> sudo apt install virtualbox-qt 
+```sudo apt install virtualbox-qt```
 
  ![](images/LinuxVMCLI.png)
 
@@ -20,25 +20,25 @@ If prompted to enter password, enter the password to log into your device then h
 
 3. Once the installation is done, type the following commands: 
 
->>> sudo dpkg-reconfigure vitualbox-dkms 
+```sudo dpkg-reconfigure vitualbox-dkms``` 
 
  ![](images/LinuxVMCLIStep3.png)
 
->>> sudo dpkg-reconfigure vitualbox 
+```sudo dpkg-reconfigure vitualbox``` 
 
 ![](images/LinuxVMCLIStep3-2.png)
 
->>> sudo modprobe vboxdrv 
+```sudo modprobe vboxdrv```
 
 ![](images/LinuxVMCLIStep3-3.png)
 
->>> sudo modprobe vboxnetflt 
+```sudo modprobe vboxnetflt```
 
 ![](images/LinuxVMCLIStep3-4.png)
 
 4. At this point, your Virtual Box is installed and configured correctly, you can start using it right away. To open Virtual Box from terminal, type: 
 
->>> virtualbox 
+```virtualbox```
 
 Virtual Machine will be opened on your Desktop: 
 
@@ -53,7 +53,7 @@ Virtual Machine will be opened on your Desktop:
 
 2. Open Terminal (press the Super Key, search terminal), go to the folder where you save the downloaded file, type the following command: 
 
->>> sudo dpkg -i YourVirtualBoxFile 
+```sudo dpkg -i YourVirtualBoxFile``` 
 
 [Note: replace YourVirtualBoxFile with the actual file name you downloaded] 
 
@@ -61,7 +61,7 @@ If prompt to enter password, enter the password to log into your device then hit
 
 3. After the package is installed, type the following command: 
 
->>> sudo adduser [YourName] vboxusers 
+```sudo adduser [YourName] vboxusers``` 
 
 [Note: Replace YourName with a username you want, this step, we are creating a user for your virtual box] 
 
