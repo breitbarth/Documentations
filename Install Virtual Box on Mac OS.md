@@ -6,6 +6,8 @@ To install and configure Virtual Box, you can do that from Terminal using comman
 
 ### Option 1: Download and set up Virtual Box using command line ###
 
+### Youtube tutorial: https://youtu.be/vK0JV2Gfpvo ### 
+
 1.	On your device, open Terminal (press the Cmd + Space, search terminal), type the command and hit Enter: 
 (If you have not installed homebrew, install following this instruction: https://github.com/KimNguyenMai/Documentations/blob/master/Install%20Homebrew%20Guide.md) 
 
