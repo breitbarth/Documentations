@@ -20,11 +20,11 @@ If prompted to enter password, enter the password to log into your device then h
 
 3. Once the installation is done, type the following commands: 
 
-```sudo dpkg-reconfigure vitualbox-dkms``` 
+```sudo dpkg-reconfigure virtualbox-dkms``` 
 
  ![](images/LinuxVMCLIStep3.png)
 
-```sudo dpkg-reconfigure vitualbox``` 
+```sudo dpkg-reconfigure virtualbox``` 
 
 ![](images/LinuxVMCLIStep3-2.png)
 
